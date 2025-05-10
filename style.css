@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #fdf6e3;
+  }
+  
+  #game-area {
+    width: 300px;
+    height: 500px;
+    margin: 0 auto;
+    position: relative;
+    border: 2px solid #d2691e;
+    background: #fff3e0;
+    overflow: hidden;
+  }
+  
+  .donut {
+    width: 50px;
+    height: 50px;
+    background: url('donut.png') no-repeat center/cover;
+    position: absolute;
+    cursor: pointer;
+  }
+  
+  
+  
+  #score {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  #start-btn{
+    margin-top: 10px;
+  }
